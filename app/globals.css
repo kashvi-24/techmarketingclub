@@ -80,3 +80,5 @@ h1,h2,.inspiration blockquote,.orbit-ticket strong{font-family:'Fraunces Soft',G
 [data-theme=dark] .game-card{color:#122750}
 [data-theme=dark] .skip-link{color:#122750}
 @media(max-width:600px){.site-header nav{gap:9px}.theme-toggle{width:32px;height:32px;font-size:20px}.site-header nav>a[href='#gatherings']{display:none}.club-values h2{margin-top:0}}
+
+@media(max-width:600px){.site-header nav>a[href='#gatherings']{display:block}.site-header nav{gap:10px}}
