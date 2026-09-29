@@ -1,0 +1,19 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "techmarketingclub",
+  "main": "./build/cloudflare-worker.ts",
+  "compatibility_date": "2026-05-15",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": true,
+  "routes": [
+    { "pattern": "techmarketing.club", "custom_domain": true },
+    { "pattern": "www.techmarketing.club", "custom_domain": true }
+  ],
+  "d1_databases": [{
+    "binding": "DB",
+    "database_name": "techmarketingclub-subscribers",
+    "database_id": "c79dff50-c893-4f1a-a7f2-4aeea560dda3",
+    "migrations_dir": "drizzle"
+  }],
+  "observability": { "enabled": true }
+}
