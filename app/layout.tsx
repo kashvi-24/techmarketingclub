@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Tech Marketing Club — Find your people",
-  description: "A global community for marketers in tech. Join the list for monthly meetups, real connections, and ideas worth sharing.",
+  title: "tech marketing club",
+  description: "A community for marketers in tech. A group chat, a familiar face, somewhere to turn. Started by Kashvi.",
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
