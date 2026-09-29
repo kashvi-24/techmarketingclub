@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "tech marketing club",
-  description: "A home-base for the world's most creative tech marketers. Good conversation, regular meetups, real friends.",
+  description: "A home for tech's most creative marketers. Good conversation, regular meetups, real friends.",
   icons: {
     icon: "/brand/sparkle.svg",
     shortcut: "/brand/sparkle.svg",
