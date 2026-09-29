@@ -5,8 +5,8 @@ export const metadata: Metadata = {
   title: "tech marketing club",
   description: "A community for marketers in tech. A group chat, a familiar face, somewhere to turn. Started by Kashvi.",
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
+    icon: "/club-icon.png",
+    shortcut: "/club-icon.png",
   },
 };
 
