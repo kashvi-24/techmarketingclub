@@ -30,3 +30,5 @@ Connect `kashvi-24/techmarketingclub`, production branch `main`.
 New signups are stored in the `subscribers` table. Publishing the application does not send welcome emails. Existing signups on the former hosting service need a separate data migration; deploying here does not copy them automatically.
 
 Keep API keys, OAuth credentials, `.env` files, and local database state out of Git.
+
+Member signup v2 collects name, email, workplace, role, city/country and an optional strength. Existing rows remain intact with null profile fields. Duplicate emails are not overwritten by unauthenticated submissions. Access records in Cloudflare dashboard → Storage & databases → D1 → techmarketingclub-subscribers → Studio → subscribers. Data stays in D1; no newsletter or welcome-email integration is configured.
